@@ -544,12 +544,12 @@ const LoggedInLayout = ({ children, themeToggle }) => {
             )}
           </Typography>
 
-          {userToken === "enabled" && user?.companyId === 1 && (
+          {/* {userToken === "enabled" && user?.companyId === 1 && (
             <Chip
               className={classes.chip}
               label={i18n.t("mainDrawer.appBar.user.token")}
             />
-          )}
+          )} */}
 
           {/* DESABILITADO POIS TEM BUGS */}
           {/* <UserLanguageSelector /> */}
